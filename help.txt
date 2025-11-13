@@ -23,6 +23,5 @@ $addButton[no;Help_$authorID$var[ID$var[ID]]-Economy-Left;;secondary;yes;$json[A
 $addButton[no;Help_Help$var[ID$var[ID]]List;➜ ;secondary;yes;]
 $addButton[no;Help_$authorID$var[ID$var[ID]]-Economy-Right;;secondary;yes;$json[A-Right]]
 $editButton[Help_Help$var[ID$var[ID]]List;➜ None;secondary;yes;$json[List]]
-$eval[$getVar[End]]
 $color[505050]
   
