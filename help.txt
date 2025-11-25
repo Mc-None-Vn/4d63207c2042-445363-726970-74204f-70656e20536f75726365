@@ -24,4 +24,3 @@ $addButton[no;Help_Help$var[ID$var[ID]]List;➜ ;secondary;yes;]
 $addButton[no;Help_$authorID$var[ID$var[ID]]-Economy-Right;;secondary;yes;$json[A-Right]]
 $editButton[Help_Help$var[ID$var[ID]]List;➜ None;secondary;yes;$json[List]]
 $color[505050]
-  
