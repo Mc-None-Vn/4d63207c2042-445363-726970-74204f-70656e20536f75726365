@@ -3,7 +3,7 @@ $description[## {emoji:list} | Mục lục Help
 **|===========================>**
 ### > {emoji:fun} Fun
 **|===========================>**
-### > {emoji:msc1} Economy 
+### > {emoji:msc,icon} Economy 
 **|===========================>**
 ### > {emoji:moderator} Moderator
 **|===========================>**
@@ -17,10 +17,10 @@ $newSelectMenu[Help_$authorID$var[ID$var[ID]]-;1;1;Chọn trang bạn muốn xem
 $addSelectMenuOption[Help_$authorID$var[ID$var[ID]]-;Trang Chủ;Help_$authorID$var[ID$var[ID]]-Home;;;{emoji:list}]
 $addSelectMenuOption[Help_$authorID$var[ID$var[ID]]-;Normal;Help_$authorID$var[ID$var[ID]]-Normal;;;{emoji:normal}]
 $addSelectMenuOption[Help_$authorID$var[ID$var[ID]]-;Fun;Help_$authorID$var[ID$var[ID]]-Fun;;;{emoji:fun}]
-$addSelectMenuOption[Help_$authorID$var[ID$var[ID]]-;Economy;Help_$authorID$var[ID$var[ID]]-Economy;;;{emoji:msc1}]
+$addSelectMenuOption[Help_$authorID$var[ID$var[ID]]-;Economy;Help_$authorID$var[ID$var[ID]]-Economy;;;{emoji:msc,icon}]
 $addSelectMenuOption[Help_$authorID$var[ID$var[ID]]-;Moderator;Help_$authorID$var[ID$var[ID]]-Moderator;;;{emoji:moderator}]
-$addButton[no;Help_$authorID$var[ID$var[ID]]-Economy-Left;;secondary;yes;{emoji:a-left}]
+$addButton[no;Help_$authorID$var[ID$var[ID]]-Economy-Left;;secondary;yes;{emoji:arrow,left}]
 $addButton[no;Help_Help$var[ID$var[ID]]List;➜ ;secondary;yes;]
-$addButton[no;Help_$authorID$var[ID$var[ID]]-Economy-Right;;secondary;yes;{emoji:a-right}]
+$addButton[no;Help_$authorID$var[ID$var[ID]]-Economy-Right;;secondary;yes;{emoji:arrow,right}]
 $editButton[Help_Help$var[ID$var[ID]]List;➜ None;secondary;yes;{emoji:list}]
 $color[505050]

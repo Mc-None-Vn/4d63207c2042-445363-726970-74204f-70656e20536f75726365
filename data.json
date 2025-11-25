@@ -6,19 +6,27 @@
     },
     "e": {
         "empty": "<:Mc_invisible:1409747379112116265>",
-        "true": "<a:Mc_true:1410479585052852327>",
-        "false": "<a:Mc_false:1410479593252458610>",
-        "t-arrow": "<a:Mc_tarrow:1410479871825678407>",
-        "f-arrow": "<a:Mc_farrow:1410479880688107592>",
+        "true": {
+            "icon": "<a:Mc_true:1410479585052852327>",
+            "arrow": "<a:Mc_arrow:1410479871825678407>"
+        },
+        "false": {
+            "icon": "<a:Mc_false:1410479593252458610>",
+            "arrow": "<a:Mc_arrow:1410479880688107592>"
+        },
         "warning": "<a:Mc_error:1410479107032088607>",
         "moderator": "<:Mc_iconmoderator:1314892884373278812>",
         "verify": "<:Mc_iconverify:1314892877142167552>",
         "tick": "<:Mc_tickicon:1275003606327627828>",
         "admin": "<:Mc_administratoricon:1279604715876909056>",
-        "a-left": "<:Mc_larrow:1410480312261021808>",
-        "a-right": "<:Mc_rarrow:1410480303600042004>",
-        "msc": "<:Mc_msc:1410472886078279751>",
-        "msc1": "<:Mc_iconmsc:1315188031401230436>",
+        "arrow": {
+            "left": "<:Mc_left:1410480312261021808>",
+            "right": "<:Mc_right:1410480303600042004>"
+        },
+        "msc": {
+            "symbol": "<:Mc_msc:1410472886078279751>",
+            "icon": "<:Mc_iconmsc:1315188031401230436>"
+        },
         "list": "<:Mc_iconlist:1314892879000502353>",
         "normal": "<:Mc_iconnormal:1314892881059774557>",
         "fun": ":smile:",
@@ -26,11 +34,13 @@
         "info": "<:Mc_iconinfo:1314892888471240746>",
         "name": "<:Mc_namecard:1273564965592109158>",
         "owner": "<:Mc_iconowner:1314892890765393950>",
-        "member": "<:Mc_iconmembers:1314901137236688948>",
-        "m-on": "<:Mc_online:1409747457767899258>",
-        "m-id": "<:Mc_idle:1409747477321748564>",
-        "m-dnd": "<:Mc_dnd:1409747496707559514>",
-        "m-off": "<:Mc_offline:1409748368015491092>",
+        "members": {
+            "icon": "<:Mc_iconmembers:1314901137236688948>",
+            "online": "<:Mc_online:1409747457767899258>",
+            "idle": "<:Mc_idle:1409747477321748564>",
+            "dnd": "<:Mc_dnd:1409747496707559514>",
+            "offline": "<:Mc_offline:1409748368015491092>"
+        },
         "boost": "<:Mc_boost:1410472896136089630>",
         "protect": "<:Mc_protecticon:1271418300517191761>",
         "emoji": "<:Mc_iconemoji:1261971623360200787>",
@@ -49,12 +59,7 @@
         "rod": "<:Mc_cancau:1172527572198887516>",
         "bait": "<:Mc_bait:1271349787698004000>",
         "cart": "<:Mc_shoppingcart:1314892874818781255>",
-        "pre": [
-            "<:Mc_premium:1410480902731071598>",
-            "<:Mc_premium:1410480902731071598>",
-            "<:Mc_premium:1410480902731071598>",
-            "<:Mc_premium:1410480902731071598>"
-        ],
+        "premium": "<:Mc_premium:1410480902731071598>",
         "ca": {
             "thuong": "<:Mc_cathuong:1170359432773902466>",
             "hoi": "<:Mc_cahoi:1170359586327384194>",
